@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heads"> TODOList</h1>
+    <div class="section">
+        <div class="set">
+            <input type="text" placeholder=" insert sometext" id="input" class="input">
+            <button id="submit" class="btn">add</button>
+            <button id="sub" class="next-btn">update</button>
+        </div>
+        
+        <h1 id="heads" class="heads"> MYList <p id="para">1</p></h1>
+
+        <ul class="list-group" id="task">
+            <li class="list">
+                <button id="edit" class="btns" onclick="editItem(this)">Edit</button>
+                <span class="txt" id="txt">My frist input</span>
+                <button id="delete" class="btn " onclick="delectItem(this)">Delete</button>
+            </li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
